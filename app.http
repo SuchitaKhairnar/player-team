@@ -1,0 +1,28 @@
+GET http://localhost:3000/players/
+
+###
+
+GET http://localhost:3000/players/10
+
+###
+POST http://localhost:3000/players/
+Content-Type: application/json
+{
+    "player_name": "Suchita Khairnar",
+    "jersey_number": 5,
+    "role":"Front-end developer"
+}
+
+###
+
+PUT http://localhost:3000/players/3
+Content-Type: application/json
+{
+    "player_name": "Suchita Khairnar",
+    "jersey_number": 5,
+    "role":"Front-end developer"
+}
+
+###
+
+DELETE  http://localhost:3000/players/3
